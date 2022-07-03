@@ -1,0 +1,362 @@
+section.topo{
+    display: flex;
+    width: 1136px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    height: 10vh;
+    margin: 5px 60px;
+}
+
+section header{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+    width: 400px;
+    height: 10vh;
+}
+
+#logo{
+    width: 176px;
+    height: 50px;
+}
+
+
+div.search__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+    
+}
+
+header div.border__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    width: 393px;
+    height: 40px;
+    background-color: #F5F5F5;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+#search__input{
+    flex: 1;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+    width: 200px;
+}
+
+#lupa{
+    margin-left: 5px;
+}
+
+div.login__botao button{
+    width: 182px;
+    height: 51px;
+    margin-right: 80px;
+    border: solid 1px #2A7AE4;
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: 400;
+    background: #ffffff;
+}
+
+div.login__botao button:hover{
+    
+}
+
+section.hero{
+    background: rosybrown;
+    width: 1442px;
+    height: 352px;
+    margin: 22px 0;
+}
+
+div.hero__content{
+    margin-left: 32px;
+    color: #F5F5F5;
+    position: relative;
+    top: 40%;
+    transform: translateY(-130%); 
+    justify-content: space-around;
+}
+
+div.hero__content {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+
+div.hero__content h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    padding: 0;
+    margin: 0;
+}
+
+div.hero__content h3{
+    padding: 0;
+    margin: 1px;
+}
+
+#botaoPromo{
+margin: 1rem;
+justify-content: center;
+align-items: center;
+padding: 16px;
+width: 130px;
+height: 51px;
+background: orange;
+border: solid 1px orange;
+color: blue;
+cursor: pointer;
+box-shadow: 0 3px #999;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+}
+
+
+#botaoPromo:hover {
+    background-color:orangered
+}
+
+
+section.categoria__produto{
+    margin: 0 92px;
+}
+
+div.categoria__title {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10px;
+    
+}
+
+div.categoria__title h2{
+    width: 148px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+div.botaoVerTudo a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+div.botaoVerTudo img{
+    width: 24px;
+    height: 24px;
+}
+
+
+div.produto__container{
+    background: lightgrey;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10 0;
+    margin: 0;
+}
+
+div.produto__item{
+    text-align: left;
+}
+
+div.produto__item h3{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}
+
+div.produto__item p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+div.produto__item a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    text-decoration: none;
+
+}
+                
+img.produto__imagem{
+    width: 176px;
+    height: 174px;
+}
+
+/*footer*/
+
+section.contato{
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    gap: 115px;
+    width: 1440px;
+    height: 368px;
+}
+
+div.contato__container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 112px;
+    width: 1136px;
+    height: 340px;
+    margin-right: 250px;
+    align-items: center;
+    
+}
+
+img.contato__logo{
+    width: 176px;
+    height: 50px;
+
+}
+
+div.contato__links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 196px;
+    height: 234px;
+}
+
+div.contato__links a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #464646;
+}
+
+div.contatoform{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 460px;
+    height: 240px;
+}
+
+div.contatoform h3{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    width: 100%;
+}
+
+div.contatoform input, textarea{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 560px;
+}
+
+div.contatoform input{
+    height: 56px;
+}
+
+div.contatoform textarea{
+    height: 92px;
+}
+
+div.contatoform button{
+    width: 182px;
+    height: 51px;
+    margin-right: 80px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    background: #2A7AE4;
+}
+
+
+/*rodape*/
+
+section.rodape {
+    width: 1440px;
+    height: 82px;
+    padding: 32px;
+    align-content: center
+}
+
+
+div.rodape__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+div.rodape__container p{
+    text-align: center;
+    color: black;
+    font-family: raleway;
+    font-size: 16px;
+    margin: 10px 0 0;
+}
+  
+  
+div.rodape__container img{
+      width: 30px;
+      margin-left: 8px;
+      
+
+}
+  
+div.rodape__container  img:hover, img:focus {
+    background-color: #585858;
+    color: #000000; 
+    transition: 0.5s;
+}
+
