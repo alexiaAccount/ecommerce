@@ -1,0 +1,67 @@
+
+section.produtoAdiciona{
+    margin:  0;
+    padding: 0;
+    width: 1440;
+}
+
+div.adiciona__container{
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1440;
+    height: 491px;
+    margin: 96px 509px 96px 508px
+}
+
+h3.produto__adiciona__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #464646;
+}
+
+div.adiciona__container input{
+    padding: 0 40px;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+button.adiciona__btn{
+    width: 503px;
+    height: 62px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    background: #2A7AE4;
+    cursor: pointer;
+}
+
+div.adiciona__container input,textarea{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 14px;
+    width: 460px;
+    outline: none;
+    border: none;
+    resize: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+}
+
+div.adiciona__container input{
+    height: 66px;
+}
+
+div.adiciona__container textarea{
+    
+    width: 460px;
+    height: 102px;
+    padding: 0 40px;
+    background-color: #F5F5F5;
+}

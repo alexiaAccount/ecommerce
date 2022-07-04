@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <!-- Folhas de estilo de CSS Linkadas -->
+    <link rel="normalize" href="assets/css/normalize.css">
+    <link rel="reset" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/adiciona.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonte do Projeto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Adiciona Produto</title>
+</head>
+<body>
+    
+    <!-- Seção que inclui Logomarca e barra pesquisa -->
+    <header><img src="assets/imagens/logo.png" alt="logoAluraGeek" id="logo"> 
+    </header>
+
+    <main>
+        <section class="produtoAdiciona">
+            
+            <div class="adiciona__container">
+                    <h3 class="produto__adiciona__title">Adicionar novo produto</h3>
+                    <input class="produto__nome" type="nome" id="produto__nome" placeholder="Nome do produto" required>
+                    <input class="produto__preco" type="text" id="produto__preco" placeholder="Preço do produto" required>
+                    <textarea class="produto__descricao" cols="40" rows="5" id="mensagem" name="mensagem" placeholder="Descrição do produto"></textarea>
+                    <button class="adiciona__btn" type="submit">Adicionar produto</button>
+            </div>
+        </section>
+    
+    </main>
+
+</body>
+</html>
