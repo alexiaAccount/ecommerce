@@ -71,6 +71,7 @@ div.login__botao button:hover{
     border-color: #585858;
 }
 
+/*Sessao Hero banner*/
 section.hero{
     background: rosybrown;
     width: 1442px;
@@ -135,9 +136,10 @@ line-height: 19px;
     background-color:orangered
 }
 
+/*Sessao das Categorias de Produtos e seus Produtos*/
 
 section.categoria__produto{
-    margin: 0 92px;
+    margin: 0 40px 40px 92px;
 }
 
 div.categoria__title {
@@ -231,10 +233,10 @@ section.contato{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 64px;
+    padding: 0px;
     gap: 115px;
     width: 1440px;
-    height: 368px;
+    
 }
 
 div.contato__container{
@@ -282,7 +284,7 @@ div.contatoform{
     padding: 0px;
     gap: 8px;
     width: 460px;
-    height: 240px;
+    height: 340px;
 }
 
 div.contatoform h3{
@@ -300,14 +302,19 @@ div.contatoform input, textarea{
     font-weight: 400;
     font-size: 14px;
     width: 560px;
+    outline: none;
+    border: none;
+    resize: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
 }
 
 div.contatoform input{
-    height: 56px;
+    height: 66px;
 }
 
 div.contatoform textarea{
-    height: 92px;
+    height: 102px;
 }
 
 div.contatoform button{
@@ -326,8 +333,8 @@ div.contatoform button{
 
 section.rodape {
     width: 1440px;
-    height: 82px;
-    padding: 32px;
+    height: 62px;
+    padding: 22px;
     align-content: center
 }
 
