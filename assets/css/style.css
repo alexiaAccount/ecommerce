@@ -1,3 +1,25 @@
+:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo-de-campo: #F5F5F5;
+   --cor-de-sessao: #464646;
+   --cor-de-texto: #464646;
+
+   --cor-de-fundo: #ffffff;
+   --cor-de-link: #2A7AE4;
+
+   /*botoes*/
+    /*botao azul*/
+   --cor-de-fundo-botao-azul: #2A7AE4;
+   --cor-de-texto-botao-azul: #ffffff;
+
+    /*botao branco*/
+   --cor-de-texto-hover:#464646;
+   --cor-de-border-hover: #585858;
+    
+}
+
+
 section.topo{
     display: flex;
     width: 1136px;
@@ -38,14 +60,14 @@ header div.border__container{
     padding-left: 20px;
     width: 393px;
     height: 40px;
-    background-color: #F5F5F5;
+    background-color: var(--cor-de-fundo-de-campo);
     margin-left: 20px;
     border-radius: 20px;
 }
 
 #search__input{
     flex: 1;
-    background-color: #F5F5F5;
+    background-color: var(--cor-de-fundo-de-campo);
     border: none;
     outline: none;
     width: 200px;
@@ -59,21 +81,21 @@ div.login__botao button{
     width: 182px;
     height: 51px;
     margin-right: 80px;
-    border: solid 1px #2A7AE4;
-    color: #2A7AE4;
+    border: solid 1px var(--cor-de-link);
+    color: var(--cor-de-link);
     font-size: 16px;
     font-weight: 400;
-    background: #ffffff;
+    background: var(--cor-de-fundo);
 }
 
 div.login__botao button:hover{
-    color: #464646;
-    border-color: #585858;
+    color: var(--cor-de-texto-hover);
+    border-color: var(--cor-de-border-hover);
+    transition: 0,5s;
 }
 
 /*Sessao Hero banner*/
 section.hero{
-    background: rosybrown;
     width: 1442px;
     height: 352px;
     margin: 22px 0;
@@ -120,20 +142,21 @@ padding: 16px;
 width: 130px;
 height: 51px;
 background: orange;
-border: solid 1px orange;
-color: blue;
+border: none;
+color: black;
 cursor: pointer;
 box-shadow: 0 3px #999;
 font-family: 'Raleway';
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 }
 
 
 #botaoPromo:hover {
-    background-color:orangered
+    background-color: lightgrey;
+    
 }
 
 /*Sessao das Categorias de Produtos e seus Produtos*/
@@ -144,7 +167,9 @@ section.categoria__produto{
 
 div.categoria__title {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 50px 10px;
     
 }
@@ -157,24 +182,29 @@ div.categoria__title h2{
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    color: #464646;
+    color: var(--cor-de-sessao);
 }
 
-div.botaoVerTudo a{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
+div.botaoVerTudo button{
+    background-color: #464646;
+    width: 72px;
+    height: 24px;
+    border: none;
+    color: var(--cor-de-link);
     font-size: 16px;
-    line-height: 19px;
-    color: #2A7AE4;
-    text-decoration: none;
+    font-weight: 400;
+    background: var(--cor-de-fundo);
+    cursor: pointer;
+}
+
+div.botaoVerTudo:hover button{
+    color: var(--cor-de-border-hover);
 }
 
 div.botaoVerTudo img{
     width: 24px;
     height: 24px;
 }
-
 
 div.produto__container{
     background: lightgrey;
@@ -197,7 +227,7 @@ div.produto__item h3{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #464646;
+    color: var(--cor-de-sessao);
 }
 
 div.produto__item p{
@@ -206,7 +236,7 @@ div.produto__item p{
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    color: #464646;
+    color: var(--cor-de-texto);
 }
 
 div.produto__item a{
@@ -215,9 +245,13 @@ div.produto__item a{
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    color: #2A7AE4;
+    color: var(--cor-de-link);
     text-decoration: none;
 
+}
+
+div.produto__item a:hover{
+    color: var(--cor-de-texto-hover);
 }
                 
 img.produto__imagem{
@@ -274,7 +308,7 @@ div.contato__links a{
     font-size: 16px;
     line-height: 19px;
     text-decoration: none;
-    color: #464646;
+    color: var(--cor-de-sessao);
 }
 
 div.contatoform{
@@ -322,10 +356,16 @@ div.contatoform button{
     height: 51px;
     margin-right: 80px;
     border: none;
-    color: #ffffff;
+    color: var(--cor-de-texto-botao-azul);
     font-size: 16px;
     font-weight: 400;
-    background: #2A7AE4;
+    background: var(--cor-de-fundo-botao-azul);
+}
+
+div.contatoform button:hover{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-texto-hover);
+    border: var(--cor-de-border-hover);
 }
 
 
