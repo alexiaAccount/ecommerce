@@ -1,0 +1,60 @@
+:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo-de-campo: #F5F5F5;
+   --cor-de-sessao: #464646;
+   --cor-de-texto: #464646;
+
+   --cor-de-fundo: #ffffff;
+   --cor-de-link: #2A7AE4;
+
+   /*botoes*/
+    /*botao azul*/
+   --cor-de-fundo-botao-azul: #2A7AE4;
+   --cor-de-texto-botao-azul: #ffffff;
+
+    /*botao branco*/
+   --cor-de-texto-hover:#464646;
+   --cor-de-border-hover: #585858;
+    
+}
+
+
+/*rodape*/
+
+section.rodape {
+    width: 1440px;
+    height: 62px;
+    padding: 22px;
+    align-content: center
+}
+
+
+div.rodape__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+div.rodape__container p{
+    text-align: center;
+    color: black;
+    font-family: raleway;
+    font-size: 16px;
+    margin: 10px 0 0;
+}
+  
+  
+div.rodape__container img{
+      width: 30px;
+      margin-left: 8px;
+      
+
+}
+  
+div.rodape__container  img:hover, img:focus {
+    background-color: #585858;
+    color: #000000; 
+    transition: 0.5s;
+}

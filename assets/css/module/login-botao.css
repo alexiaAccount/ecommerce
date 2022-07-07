@@ -1,0 +1,38 @@
+:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo-de-campo: #F5F5F5;
+   --cor-de-sessao: #464646;
+   --cor-de-texto: #464646;
+
+   --cor-de-fundo: #ffffff;
+   --cor-de-link: #2A7AE4;
+
+   /*botoes*/
+    /*botao azul*/
+   --cor-de-fundo-botao-azul: #2A7AE4;
+   --cor-de-texto-botao-azul: #ffffff;
+
+    /*botao branco*/
+   --cor-de-texto-hover:#464646;
+   --cor-de-border-hover: #585858;
+    
+}
+
+div.login__botao button{
+    width: 182px;
+    height: 51px;
+    margin-right: 80px;
+    border: solid 1px var(--cor-de-link);
+    color: var(--cor-de-link);
+    font-size: 16px;
+    font-weight: 400;
+    background: var(--cor-de-fundo);
+}
+
+div.login__botao button:hover{
+    color: var(--cor-de-texto-hover);
+    border-color: var(--cor-de-border-hover);
+    transition: 0,5s;
+}
+
