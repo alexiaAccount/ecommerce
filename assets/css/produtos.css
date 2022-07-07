@@ -11,6 +11,7 @@ section.produto__todos{
 div.produto__title {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -33,17 +34,21 @@ div.produto__title button{
     background: #2A7AE4;
 }
 
+.produtos__container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 49px;
+}
 
 ul.produtos__container{
-    
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: ;
-    justify-content: space-around;
-    width: 100%;
     list-style: none;
 }
+
+li.produto__item img{
+    width: 176px;
+    height: 174px;
+} 
 
 li.produto__item{
     text-align: left;
@@ -66,12 +71,4 @@ li.produto__item p{
     line-height: 19px;
     color: #464646;
 }
-
-                
-li.produto__item img{
-    width: 176px;
-    height: 174px;
-}
-
-
 

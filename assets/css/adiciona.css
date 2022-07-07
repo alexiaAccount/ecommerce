@@ -14,6 +14,7 @@ div.adiciona__container{
     width: 1440;
     height: 491px;
     margin: 96px 509px 96px 508px
+    
 }
 
 h3.produto__adiciona__title{
@@ -23,12 +24,14 @@ h3.produto__adiciona__title{
     font-size: 18px;
     line-height: 21px;
     color: #464646;
+    
 }
 
 div.adiciona__container input{
     padding: 0 40px;
     background-color: #F5F5F5;
     border: none;
+    
 }
 
 button.adiciona__btn{

@@ -1,3 +1,9 @@
+section.topo{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 /* Sessao Hero banner*/ 
 section.hero{
     width: 1442px;
